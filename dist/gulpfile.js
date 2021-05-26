@@ -1,0 +1,1 @@
+const gulp=require("gulp"),uglifycss=require("gulp-uglify");gulp.task("css",function(){gulp.src("./*.js").pipe(uglifycss()).pipe(gulp.dest("./dist/"))});
